@@ -15,12 +15,7 @@ class IndexController extends Zend_Controller_Action
 				$this->view->headLink()->appendStylesheet('/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css');
 				$this->view->headLink()->appendStylesheet('/assets/dist/css/style.min.css');
 				$this->view->headLink()->appendStylesheet('https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css');
-				// $this->view->headLink()->appendStylesheet('/assets/extra-libs/c3/c3.min.css');
-				// $this->view->headLink()->appendStylesheet('/assets/extra-libs/c3/c3.min.css');
-				// $this->view->headLink()->appendStylesheet('/assets/extra-libs/c3/c3.min.css');
-				// $this->view->headLink()->appendStylesheet('/assets/extra-libs/c3/c3.min.css');
 				
-				// $this->view->headScript()->appendFile('/assets/libs/jquery/dist/jquery.min.js');
 				$this->view->headScript()->appendFile('https://code.jquery.com/jquery-3.7.0.js');
 				$this->view->headScript()->appendFile('https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js');
 				$this->view->InlineScript()->appendFile('/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js');
